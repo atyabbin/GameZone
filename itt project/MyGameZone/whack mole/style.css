@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(mario-bg.jpg);
+    background-size: cover;
+    
+   
+    
+   
+}
+#maindiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+  
+}
+#score{
+font-size: 20px;
+font-weight: 700;
+}
+#title{
+    font-size: 20px;
+    font-weight: 700;
+}
+#end{
+    margin-left: 120px;
+    margin-right: 10px;
+    font-weight: 800;
+    color: black;
+    font-size: 50px;
+    margin-top: 200px;
+}
+#myback div{
+    height: 180px;
+    width: 180px;
+    background-image: url(pipe.png);
+    background-size: cover;
+}
+
+#myback{
+    height: 540px;
+    width: 540px;
+    background-image: url(soil.png);
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: white;
+
+}
